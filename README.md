@@ -1,1 +1,1 @@
-![Motyka Lawn Care Logo](/TheTechRocket/docs/assets/MLCLogo.jpg)
+![Motyka Lawn Care Logo](/MotykaLawnCare/docs/assets/MLCLogo.jpg)
