@@ -1332,4 +1332,45 @@ p.form-message.success, p.form-message.error {
         -o-transform: translateY(-50%);
         transform: translateY(-50%); }
 
+
+		.slideshow-container {
+			position: relative;
+			max-width: 800px;
+		}
+		
+		.mySlides {
+			display: none;
+			width: 100%;
+		}
+		
+		/* Fading animation */
+		/* .fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1s;
+			animation-name: fade;
+			animation-duration: 1s;
+			animation-fill-mode: forwards;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards; 
+		}
+		
+		@-webkit-keyframes fade {
+			from { opacity: .4; } 
+			to { opacity: 1; }
+		}
+		
+		@keyframes fade {
+			from { opacity: .4; } 
+			to { opacity: 1; }
+		}
+
+		
 /*# sourceMappingURL=style.css.map */
