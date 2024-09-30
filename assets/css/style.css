@@ -758,7 +758,7 @@ p {
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       -o-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      transform: translateY(-50%);}
     .header-social .header-social-icon ul li {
       display: inline-block;
       margin-left: 13px; }
@@ -1332,45 +1332,30 @@ p.form-message.success, p.form-message.error {
         -o-transform: translateY(-50%);
         transform: translateY(-50%); }
 
+/*===========================
+       SLIDESHOW IMAGES css
+===========================*/
+/* Container div for the image */
+.slideshow-image-container {
+    display: inline-block;     /* Ensures the container only takes the necessary space */
+    background-color: #2c6147; /* Color for the border */
+    padding: 10px;             /* This will act as the border width */
+	border-radius: 5px;       /* Rounds the corners of the background */
+}
 
-		.slideshow-container {
-			position: relative;
-			max-width: 800px;
-		}
-		
-		.mySlides {
-			display: none;
-			width: 100%;
-		}
-		
-		/* Fading animation */
-		/* .fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1s;
-			animation-name: fade;
-			animation-duration: 1s;
-			animation-fill-mode: forwards;
-		}
+/* Image styling (if needed) */
+.slideshow-image-container img {
+    display: block;            /* Removes any space below the image */
+    border: none;              /* Remove any default border */
+}
 
-		/* Fading animation */
-		.fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-			animation-timing-function: ease-in-out;
-			animation-fill-mode: forwards; 
-		}
-		
-		@-webkit-keyframes fade {
-			from { opacity: .4; } 
-			to { opacity: 1; }
-		}
-		
-		@keyframes fade {
-			from { opacity: .4; } 
-			to { opacity: 1; }
-		}
 
-		
+
+/* MLC Colors
+#6cca7c
+#2c6147
+#588c7f 
+*/
+
+
 /*# sourceMappingURL=style.css.map */

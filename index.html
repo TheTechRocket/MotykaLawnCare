@@ -13,7 +13,7 @@
     <title>Motyka Lawn Care</title>
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/mlc_favicon.png" type="image/png">
+    <link rel="shortcut icon" href="assets/images/logo/mlc_favicon.png" type="image/png">
 
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -65,7 +65,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/MLCLogo_Full_Clear_100.png" alt="Logo">
+                                <img src="assets/images/logo/MLCLogo_Full_Clear_100.png" alt="Logo">
                             </a> <!-- Logo -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <span class="toggler-icon"></span>
@@ -101,23 +101,53 @@
                         </div> <!-- header content right -->
                     </div>
 
-                    <div class="col-lg-6 offset-xl-1">
-                        <div class="header-image d-none d-lg-block">
-                            <!-- <img src="assets/images/main_lawn_cropped.jpg" alt="cut lawn"> -->
-							<div class="slideshow-container">
-								<img class="mySlides fade" src="assets/images/slideshow/SS1.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS2.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS3.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS4.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS5.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS6.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS7.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS8.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS9.jpg" alt="Cut Lawn">
-								<img class="mySlides fade" src="assets/images/slideshow/SS10.jpg" alt="Cut Lawn">
+					<div class="col-lg-6 offset-xl-1">
+						<div class="slideshow-image-container d-none d-lg-block">
+							<div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="assets/images/slideshow/SS1.jpg" alt="Cut lawn slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/slideshow/SS2.jpg" alt="Cut lawn slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/slideshow/SS3.jpg" alt="Cut lawn slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/slideshow/SS4.jpg" alt="Cut lawn slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/slideshow/SS5.jpg" alt="Cut lawn slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/slideshow/SS6.jpg" alt="Cut lawn slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="assets/images/slideshow/SS7.jpg" alt="Cut lawn slide">
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
 							</div>
-                        </div>
-                    </div>
+						</div>
+					</div>
+                    
 					
 
 					<script src="assets/js/slideshowscript.js"></script>
@@ -139,6 +169,7 @@
                 </div> <!-- container -->
             </div> <!-- header social -->
         </div> <!-- header content -->
+
     </header>
 
     <!--====== HEADER PART ENDS ======-->
@@ -219,8 +250,8 @@
                             <i class="lni lni-leaf"></i>
                         </div>
                         <div class="service-content">
-                            <h4 class="service-title"><a href="#contact">Leaf Removal</a></h4>
-                            <p>We remove leaves in the spring and fall.</p>
+                            <h4 class="service-title"><a href="#contact">Spring and Fall Cleanup</a></h4>
+                            <p>We remove leaves in the spring and fall</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -231,7 +262,7 @@
                         </div>
                         <div class="service-content">
                             <h4 class="service-title"><a href="#contact">Lawn Care</a></h4>
-                            <p>We provide many lawn care services such as mowing and fertalization.</p>
+                            <p>We provide many lawn care services such as mowing and fertalization</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -240,16 +271,43 @@
                         <!--<div class="service-icon">
                             <i class="lni-mobile"></i>
                         </div> -->
-                        <a href="index.html">
-                            <img src="assets/images/snowflake.png" alt="snowflake">
-                        </a>
+                        <img src="assets/images/icons/snowflake.png" alt="snowflake"></a>
                         <div class="service-content">
                             <h4 class="service-title"><a href="#contact">Snow Removal</a></h4>
-                            <p>We provide snow removal services in the winter months.</p>
+                            <p>We provide snow removal services in the winter months</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
             </div> <!-- row -->
+
+			<div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <div class="service-icon">
+                            <i class="lni lni-trees"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#contact">Landscaping</a></h4>
+                            <p>We provide garden bed installation and transformations</p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-service text-center mt-30">
+                        <!-- <div class="service-icon">
+                            <span class="mdi mdi-wall"></span>
+                        </div> -->
+                            <img src="assets/images/icons/brick-wall.png" alt="bricks"></a>
+                        <div class="service-content">
+                            <h4 class="service-title"><a href="#contact">Hardscaping</a></h4>
+                            <p>We provide patio and walkway installation</p>
+                        </div>
+                    </div> <!-- single service -->
+                </div>
+            </div> <!-- row -->
+
+            </div> <!-- row -->
+
         </div> <!-- container -->
     </section>
     <section id="service" class="services-area gray-bg pt-5 pb-130">
@@ -265,8 +323,9 @@
                           <li>Spring & Fall Cleanup</li>
                           <li>Mulching Flower Beds</li>
                           <li>Hedge Trimming</li>
-                          <li>Driveway/Sidewalk Power Washing</li>
-                          <li>& Many More Outdoor Needs</li>
+                          <li>Landscaping</li>
+						  <li>Hardscaping</li>
+                          <li>And Many More Outdoor Needs</li>
                       </ul>
                   </div> <!-- section title -->
               </div>
@@ -299,13 +358,15 @@
                             <div class="pricing-text">
                                 <p>Price ranges based on lawn size</p>
                                 <h5>Starting at</h5>
-                                <span class="price">$75.00</span>
+                                <span class="price">$125.00</span>
+								<p>per visit</p>
                             </div>
                             <div class="pricing-list">
                                 <ul>
                                     <li>Leaf Blowing</li>
-                                    <li>Mulching Services</li>
-                                    <li>Grass Fertilizing</li>
+                                    <li>Dethatch</li>
+									<li>Graden Bed Cleaning</li>
+                                    <li>Bush Trimming<strong>*</strong></li>
                                 </ul>
                             </div>
                             <div class="pricing-btn">
@@ -323,13 +384,15 @@
                             <div class="pricing-text">
                                 <p>Price ranges based on lawn size</p>
                                 <h5>Starting at</h5>
-                                <span class="price">$30.00</span>
+                                <span class="price">$35.00</span>
+								<p>per visit</p>
                             </div>
                             <div class="pricing-list">
                                 <ul>
                                     <li>Lawn Cutting</li>
                                     <li>Weed Wacking</li>
                                     <li>Sidewalk Edging</li>
+									<li><strong>Weekly or Bi-weekly Options</strong></li>
                                 </ul>
                             </div>
                             <div class="pricing-btn">
@@ -348,12 +411,14 @@
                                 <p>Options for full winter or per removal</p>
                                 <h5>Starting at</h5>
                                 <span class="price">$35.00</span>
+								<p>per visit</p>
                             </div>
                             <div class="pricing-list">
                                 <ul>
-                                    <li>Side Walk Cleaning</li>
+                                    <li>Side Walk Clearing</li>
                                     <li>Driveway Clearing</li>
                                     <li>Patio Cleaning</li>
+									<li><strong>Residential Only</strong></li>
                                 </ul>
                             </div>
                             <div class="pricing-btn">
@@ -364,6 +429,12 @@
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
+		<div class="col-lg-12 mt-30">
+			<div class="section-title text-center pb-25">
+				<p><strong>*</strong>Bushing Trimming services are an additional fee</p>
+			</div>
+		</div>
+		
     </section>
 
     <!--====== PRICING PART ENDS ======-->
@@ -385,28 +456,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-work text-center mt-30">
                         <div class="work-image">
-                            <img src="assets/images/rocks_cropped.jpg" alt="rocks">
-                        </div>
-                        <div class="work-overlay">
-                            <div class="work-content">
-                                <h3 class="work-title">Landscaping Services</h3>
-                                <ul>
-                                    <li><a class="image-popup" href="assets/images/rocks_full.jpg"><i class="lni-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> <!-- single work -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-work text-center mt-30">
-                        <div class="work-image">
-                            <img src="assets/images/lawn_cropped.jpg" alt="cut lawn">
+                            <img src="assets/images/recent work/lawn1_cropped.jpg" alt="rocks">
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
                                 <h3 class="work-title">Lawn Mowing</h3>
                                 <ul>
-                                    <li><a class="image-popup" href="assets/images/lawn_full.jpg"><i class="lni-plus"></i></a></li>
+                                    <li><a class="image-popup" href="assets/images/recent work/lawn1_full.jpg"><i class="lni-plus"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -415,14 +471,28 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-work text-center mt-30">
                         <div class="work-image">
-                            <img src="assets/images/mulch_cropped.jpg" alt="mulch">
+                            <img src="assets/images/recent work/lawn2_cropped.jpg" alt="rocks">
                         </div>
                         <div class="work-overlay">
                             <div class="work-content">
-                                <h3 class="work-title">Mulching Services</h3>
+                                <h3 class="work-title">Lawn Mowing</h3>
                                 <ul>
-                                    <li><a class="image-popup" href="assets/images/mulch_full.jpg"><i class="lni-plus"></i></a></li>
-                                    <!--<li><a href="#"><i class="lni-link"></i></a></li>-->
+                                    <li><a class="image-popup" href="assets/images/recent work/lawn2_full.jpg"><i class="lni-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- single work -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-work text-center mt-30">
+                        <div class="work-image">
+                            <img src="assets/images/recent work/lawn3_cropped.jpg" alt="rocks">
+                        </div>
+                        <div class="work-overlay">
+                            <div class="work-content">
+                                <h3 class="work-title">Lawn Mowing</h3>
+                                <ul>
+                                    <li><a class="image-popup" href="assets/images/recent work/lawn3_full.jpg"><i class="lni-plus"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -523,7 +593,7 @@
                     <div class="col-lg-8">
                         <div class="footer-content text-center">
                             <a href="index.html">
-                                <img src="assets/images/MLCLogo_Full_White_100.png" alt="Logo">
+                                <img src="assets/images/logo/MLCLogo_Full_White_100.png" alt="Logo">
                             </a>
                             <p class="mt-">We pride ourselves in exceptional lawn care services and high quality customer service. Please do not hesitate to contact us with any questions, concerns, or comments you may have about what we do. We look foward to hearing from you soon.</p>
                             <ul>
@@ -541,6 +611,7 @@
                     <div class="col-lg-12">
                         <div class="copyright-text text-center pt-20">
                             <p><a href="https://github.com/TheTechRocket/MotykaLawnCare" rel="nofollow" style="color: #ffffff; text-decoration: none;">Copyright © 2022. Template Crafted by Andrew Motyka</a></p>
+							<p><a href="https://www.flaticon.com/free-icons/bricks" title="bricks icons" style="color: #ffffff; text-decoration: none;">Bricks icons created by Freepik - Flaticon</a></p>
                         </div> <!-- copyright text -->
                     </div>
                 </div> <!-- row -->
