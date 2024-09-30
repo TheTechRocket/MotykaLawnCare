@@ -1338,7 +1338,7 @@ p.form-message.success, p.form-message.error {
 /* Container div for the image */
 .slideshow-image-container {
     display: inline-block;     /* Ensures the container only takes the necessary space */
-    background-color: #2c6147; /* Color for the border */
+    background-color: #6cca7c; /* Color for the border */
     padding: 10px;             /* This will act as the border width */
 	border-radius: 5px;       /* Rounds the corners of the background */
 }
