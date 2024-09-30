@@ -758,7 +758,7 @@ p {
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       -o-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      transform: translateY(-50%);}
     .header-social .header-social-icon ul li {
       display: inline-block;
       margin-left: 13px; }
@@ -1331,5 +1331,31 @@ p.form-message.success, p.form-message.error {
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
         transform: translateY(-50%); }
+
+/*===========================
+       SLIDESHOW IMAGES css
+===========================*/
+/* Container div for the image */
+.slideshow-image-container {
+    display: inline-block;     /* Ensures the container only takes the necessary space */
+    background-color: #6cca7c; /* Color for the border */
+    padding: 10px;             /* This will act as the border width */
+	border-radius: 5px;       /* Rounds the corners of the background */
+}
+
+/* Image styling (if needed) */
+.slideshow-image-container img {
+    display: block;            /* Removes any space below the image */
+    border: none;              /* Remove any default border */
+}
+
+
+
+/* MLC Colors
+#6cca7c
+#2c6147
+#588c7f 
+*/
+
 
 /*# sourceMappingURL=style.css.map */
